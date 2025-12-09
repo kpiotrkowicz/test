@@ -1,8 +1,21 @@
 #include <iostream>
-#include "init.h"
+#include "logowanie.h"
+
 int main() {
-	a = 10;
-	cout << "Hello, World!" << endl;
-	cout << "a: " << a;
-	return 0;
+    std::string login, haslo;
+
+    std::cout << "Login: ";
+    std::cin >> login;
+
+    std::cout << "Haslo: ";
+    std::cin >> haslo;
+
+    if (zaloguj(login, haslo)) {
+        std::cout << "Zalogowano poprawnie!" << std::endl;
+    }
+    else {
+        std::cout << "Zly login lub haslo." << std::endl;
+    }
+
+    return 0;
 }
