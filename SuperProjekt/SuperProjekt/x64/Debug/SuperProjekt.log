@@ -1,0 +1,8 @@
+﻿  main.cpp
+D:\repo\test\SuperProjekt\SuperProjekt\main.cpp(5,5): error C2601: "main": definicje funkcji lokalnych są niedozwolone
+      D:\repo\test\SuperProjekt\SuperProjekt\droga.h(4,18):
+      ten wiersz zawiera znak „{”, który nie został jeszcze dopasowany
+  
+D:\repo\test\SuperProjekt\SuperProjekt\droga.h(4,18): error C1075: „{”: nie znaleziono zgodnego tokenu
+  (kompilowanie pliku źródłowego „main.cpp”)
+  
