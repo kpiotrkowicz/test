@@ -16,6 +16,6 @@ int main() {
     else {
         std::cout << "Zly login lub haslo." << std::endl;
     }
-
+    std::cout << "oasdokadok";
     return 0;
 }
